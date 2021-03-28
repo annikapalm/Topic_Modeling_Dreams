@@ -6,7 +6,7 @@ import pickle
 
 st.title('Corpus Explorer')
 
-with open('corpus_files\\corpus_raw', 'rb') as f:
+with open('corpus_files/corpus_raw', 'rb') as f:
 	data = pickle.load(f)
 
 #data.drop(['title', 'body', 'score', 'comms_num'], axis=1, inplace=True)
