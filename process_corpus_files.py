@@ -51,7 +51,7 @@ def sort_timestamps(df):
 
 def join_texts(df):
 
-    df['text'] = df['title'] + df['body']
+    df['text'] = df['title'] + ' ' + df['body']
     
     return df
 
